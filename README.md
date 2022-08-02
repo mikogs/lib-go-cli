@@ -1,6 +1,6 @@
 # lib-go-cli
 
-[![GoPkg Widget]][GoPkg]
+[![Go Reference](https://pkg.go.dev/badge/github.com/gasiordev/lib-go-cli.svg)](https://pkg.go.dev/github.com/gasiordev/lib-go-cli)
 
 ----
 
