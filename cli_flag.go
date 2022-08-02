@@ -1,11 +1,11 @@
 package cli
 
 import (
+	"encoding/json"
 	"errors"
+	"fmt"
 	"os"
 	"regexp"
-	"encoding/json"
-	"fmt"
 )
 
 const (
@@ -38,17 +38,17 @@ const (
 	// AllowUnderscore can be used only with TypeAlphanumeric and additionally allows flag to have underscore chars.
 	AllowUnderscore = 16384
 	// AllowHyphen can be used only with TypeAlphanumeric and additionally allows flag to have hyphen chars.
-	AllowHyphen         = 32768
+	AllowHyphen = 32768
 	// TypeEmail sets flag to be an email (value is checked against a regular expression)
-	TypeEmail           = 65536
-	// TypeFQDN sets flag to be a FQDN 
-	TypeFQDN            = 131072
+	TypeEmail = 65536
+	// TypeFQDN sets flag to be a FQDN
+	TypeFQDN = 131072
 	// TypePathDir sets flag to be a directory
-	TypePathDir         = 262144
+	TypePathDir = 262144
 	// TypePathRegularFile sets flag to be a regular file
 	TypePathRegularFile = 524288
 	// ValidJSON sets flag to be a valid JSON. If it's a file then it's contents is checked. Otherwise it's the value
-	ValidJSON           = 1048576
+	ValidJSON = 1048576
 )
 
 // CLIFlag represends flag. It has a name, alias, description, value that is shown when printing help and configuration which is an integer value. It can be for example Required|TypePathFile|MustExist.

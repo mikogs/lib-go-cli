@@ -1,7 +1,7 @@
 VERSION?=$$(cat version.go | grep VERSION | cut -d"=" -f2 | sed 's/"//g')
 GOFMT_FILES?=$$(find . -name '*.go')
 PROJECT_BIN?=go-cli
-PROJECT_SRC?=github.com/gen64/go-cli
+PROJECT_SRC?=github.com/gasiordev/go-cli
 
 default: build
 

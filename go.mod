@@ -1,3 +1,3 @@
-module github.com/gasiordev/go-cli
+module github.com/gasiordev/lib-go-cli
 
-go 1.15
+go 1.18

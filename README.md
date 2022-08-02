@@ -1,8 +1,5 @@
-# go-cli
-
-**This project is no longer maintained**
-
-Package `gasiordev/go-cli` is meant to make handling command line interface easier.
+# lib-go-cli
+Package `gasiordev/lib-go-cli` is meant to make handling command line interface easier.
 
 You define commands with flags, attach a handler to it and package does all
 the parsing.
@@ -14,7 +11,7 @@ Ensure you have your
 run the following:
 
 ```
-go get -u github.com/gasiordev/go-cli
+go get -u github.com/gasiordev/lib-go-cli
 ```
 
 ### Example
