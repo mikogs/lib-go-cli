@@ -1,4 +1,9 @@
 # lib-go-cli
+
+[![GoPkg Widget]][GoPkg]
+
+----
+
 Package `gasiordev/lib-go-cli` is meant to make handling command line interface easier.
 
 You define commands with flags, attach a handler to it and package does all
