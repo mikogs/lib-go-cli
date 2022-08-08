@@ -1,10 +1,10 @@
 # lib-go-cli
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/gasiordev/lib-go-cli.svg)](https://pkg.go.dev/github.com/gasiordev/lib-go-cli)
+[![Go Reference](https://pkg.go.dev/badge/github.com/mikogs/lib-go-cli.svg)](https://pkg.go.dev/github.com/mikogs/lib-go-cli)
 
 ----
 
-Package `gasiordev/lib-go-cli` is meant to make handling command line interface easier.
+Package `mikogs/lib-go-cli` is meant to make handling command line interface easier.
 
 You define commands with flags, attach a handler to it and package does all
 the parsing.
@@ -18,7 +18,7 @@ Ensure you have your
 run the following:
 
 ```
-go get -u github.com/gasiordev/lib-go-cli
+go get -u github.com/mikogs/lib-go-cli
 ```
 
 ### Example
